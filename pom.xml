@@ -6,7 +6,12 @@
 
     <groupId>org.example</groupId>
     <artifactId>julia_homework</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>all</module>
+        <module>3_all_operations</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
